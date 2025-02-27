@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horacio Pulido - Escritor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .book {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea, form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Horacio Pulido</h1>
+        <p>Locutor, actor y escritor</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#libros">Libros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección de Biografía -->
+    <section id="bio">
+        <h2>Biografía</h2>
+        <p>Locutor, actor y escritor. Autor de *El principio de todo*. Exploro la identidad, la libertad y los desafíos de la vida a través de historias que inspiran. ¡Bienvenidos a mi mundo literario!</p>
+    </section>
+
+    <!-- Sección de Libros -->
+    <section id="libros">
+        <h2>Mis Libros</h2>
+        <div class="book">
+            <img src="ruta/a/tu-portada.jpg" alt="Portada de El principio de todo">
+            <div>
+                <h3>El principio de todo</h3>
+                <p>Una novela que sigue a Killian Bartol en un viaje transformador por la mítica Ruta 40, donde enfrentará sus miedos y descubrirá su verdadera identidad.</p>
+            </div>
+        </div>
+        <!-- Puedes agregar más libros aquí -->
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="https://formsubmit.co/tu-email@example.com" method="POST">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Sígueme en redes sociales:</p>
+        <p>
+            <a href="https://facebook.com/tu-perfil" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com/tu-perfil" target="_blank">Instagram</a>
+        </p>
+        <p>&copy; 2023 Horacio Pulido. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
